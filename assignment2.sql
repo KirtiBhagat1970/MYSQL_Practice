@@ -193,3 +193,4 @@ select Dept_name,count(*) as emp_count from EMPLOYEE group by Dept_name having a
 
 select Dept_name,count(*) as emp_count from EMPLOYEE where Experience>5 and Salary>10000 group by Dept_name;
 
+-- all queries in one file
